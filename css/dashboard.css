@@ -1,0 +1,77 @@
+.dashboard{
+    position: fixed;
+    background-color: rgb(107, 107, 107);
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.button-dashboard{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(99, 99, 99);
+    border: none;
+    color: white;
+}
+
+.menu-dashboard{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 13px;
+}
+
+.options-dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.options-dashboard>button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-right-side{
+    display: flex;
+    width: 100%;
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+
+.container-content{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.task-text-content{
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 200px;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+
+.footer-dashboard{
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.content-footer{
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+}
+
+.text-footer{
+    margin: 4px;
+    margin-left: 10px;
+}

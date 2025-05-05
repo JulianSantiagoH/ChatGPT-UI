@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/021/495/993/non_2x/chatgpt-openai-logo-icon-free-png.png">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/dashboard.css">
     <title>ChatGPT Mini</title>
 </head>
 <body>
-    <header>
-        <div>
-            <button><img src="src/img/slide.icon.svg" alt="slideImage" title="Abrir barra lateral"></button>
-            <button><img src="src/img/slide.icon.svg" alt="slideImage" title="Nuevo chat"></button>
-            <button>ChatGPT</button>
-            <ul>
-                <button>
+    <header class="header">
+        <div class="left-header">
+            <button class="button"><img src="src/img/slide.icon.svg" alt="slideImage" title="Abrir barra lateral"></button>
+            <button class="button"><img src="src/img/slide.icon.svg" alt="slideImage" title="Nuevo chat"></button>
+            <button class="button-modal button">ChatGPT <img src="src/img/slide.icon.svg" alt=""></button>
+            <ul class="modal-plus">
+                <button class="button">
                     <li>
                         <img src="src/img/slide.icon.svg" alt="">
                         <h3>ChatGPT Plus</h3>       
@@ -24,36 +25,40 @@
                 </button>
             </ul>
         </div>
-        <div>
-            <button>
+        <div class="right-header">
+            <button class="right-header-content">
                 <img src="src/img/slide.icon.svg" alt="">
                 <h3>Temporal</h3>
             </button>
-            <button><img src="src/img/slide.icon.svg" alt=""></button>
+            <button class="button-profile button"><img class="img-profile" src="https://fastly.picsum.photos/id/34/100/100.jpg?hmac=mYo0ewyVmKTuKhA0wFbjqazhspnVhSy9F0FKFiUHS5M" alt=""></button>
         </div>
 
     </header>
-    <aside>
-        <div>
-            <button><img src="src/img/slide.icon.svg" alt="slideImage" title="Abrir barra lateral"></button>
-            <button><img src="src/img/slide.icon.svg" alt="slideImage" title="Buscar chat"></button>
-            <button><img src="src/img/slide.icon.svg" alt="slideImage" title="Nuevo chat"></button> 
-        </div>
-        <div>
-            <button><img src="src/img/slide.icon.svg" alt="slideImage" title="ChatGPT">ChatGPT</button>
-            <button><img src="src/img/slide.icon.svg" alt="slideImage" title="Biblioteca">Biblioteca</button>
-            <button><img src="src/img/slide.icon.svg" alt="slideImage" title="Canva">Canva</button>
-            <button><img src="src/img/slide.icon.svg" alt="slideImage" title="Chat Español">Chat Español</button>
-            <button><img src="src/img/slide.icon.svg" alt="slideImage" title="Explorar GPT">Explorar GPT</button> 
-        </div>
-        <div>
-            <p>Ayer</p>
-            <p>Precio mensual WOW Colombia</p>
-            <div>
-                <img src="src/img/slide.icon.svg" alt="">
-                <h3>Cambiar a un plan superior</h3>
-                <p>Más acceso a los mejores modelos</p>            
+    <aside class="dashboard">
+        <div class="menu-dashboard">
+            <button class="button-dashboard"><img src="src/img/slide.icon.svg" alt="slideImage" title="Abrir barra lateral"></button>
+            <div class="menu-right-side">
+                <button class="button-dashboard"><img src="src/img/slide.icon.svg" alt="slideImage" title="Buscar chat"></button>
+                <button class="button-dashboard"><img src="src/img/slide.icon.svg" alt="slideImage" title="Nuevo chat"></button> 
             </div>
+        </div>
+        <div class="options-dashboard">
+            <button class="button-dashboard"><img class="icon-option-dashboard" src="src/img/slide.icon.svg" alt="slideImage" title="ChatGPT">ChatGPT</button>
+            <button class="button-dashboard"><img class="icon-option-dashboard" src="src/img/slide.icon.svg" alt="slideImage" title="Biblioteca">Biblioteca</button>
+            <button class="button-dashboard"><img class="icon-option-dashboard" src="src/img/slide.icon.svg" alt="slideImage" title="Canva">Canva</button>
+            <button class="button-dashboard"><img class="icon-option-dashboard" src="src/img/slide.icon.svg" alt="slideImage" title="Chat Español">Chat Español</button>
+            <button class="button-dashboard"><img class="icon-option-dashboard" src="src/img/slide.icon.svg" alt="slideImage" title="Explorar GPT">Explorar GPT</button> 
+        </div>
+        <div class="container-content">
+            <p>Ayer</p>
+            <p class="task-text-content">Precio mensual WOW Colombia</p>
+        </div>
+        <div class="footer-dashboard">
+            <img src="src/img/slide.icon.svg" alt="">
+            <div class="content-footer">
+                <h3 class="text-footer">Cambiar a un plan superior</h3>
+                <p class="text-footer">Más acceso a los mejores modelos</p>  
+            </div>          
         </div>
     </aside>
     <main>
@@ -61,11 +66,11 @@
         <div>
             <input type="text" name="" id="" placeholder="Pregunta lo que quieras">
             <div>
-                <button></button>
-                <button></button>
-                <button></button>
-                <button></button>
-                <button></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
             </div>
         </div>
     </main>
