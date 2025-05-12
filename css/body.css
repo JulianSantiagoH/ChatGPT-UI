@@ -2,6 +2,12 @@ main{
     height: 80vh;
 }
 
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .body-content{
     align-items: center;
     display: flex;
@@ -20,4 +26,13 @@ main{
 .input-button{
     display: flex;
     flex-direction: column;
+}
+
+.content-web{
+    display: flex;
+    height: 100%;
+}
+
+.content-body{
+    width: 100%;
 }
