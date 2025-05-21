@@ -92,3 +92,7 @@
 .text-subtitle-footer{
     color: #AFAFA2;
 }
+
+.dashboard-closed{
+    display: none;
+}
