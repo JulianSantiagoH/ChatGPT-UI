@@ -2,6 +2,12 @@ main{
     height: 80vh;
 }
 
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .body-content{
     align-items: center;
     display: flex;
@@ -10,14 +16,90 @@ main{
 }
 
 .button-body{
-    background-color: #212121;
-    border-radius: 20px;
-    border: #414141 solid 1px;
+    background-color: #303030;
+    border-radius: 50px;
+    border: #4F4F4F solid 1px;
+    cursor: pointer;
     margin-top: 10px;
-    padding: 15px;
+    padding: 10px 11px;
+}
+
+.button-body-large{
+    align-items: center;
+    background-color: #303030;
+    border-radius: 20px;
+    border: #4F4F4F solid 1px;
+    cursor: pointer;
+    display: inline-flex;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.body-title{
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 .input-button{
+    background-color: #303030;
+    border-radius: 20px;
+    border: #3F3F3F solid 1px;
     display: flex;
     flex-direction: column;
+    height: 11vh;
+    width: 80vh;
+}
+
+.input-chat{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    outline: none;
+}
+
+.content-input{
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+
+.content-buttons-body{
+    margin-left: 10px;
+}
+.content-buttons-body-right{
+    margin-left: 15px;
+}
+
+.content-web{
+    display: flex;
+    height: 100%;
+}
+
+.content-body{
+    width: 100%;
+}
+
+.buttonMenuClosed{
+    display: none;
+}
+
+.button-modal{
+    margin-left: 15px;
+}
+
+.button-body-voice{
+    background-color:white;
+    border-radius: 50px;
+    border: #4F4F4F solid 1px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 11px;
 }
